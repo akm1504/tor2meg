@@ -1,0 +1,16 @@
+{
+    "name": "tor2meg",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "USER",
+    "contributors": [],
+    "dependencies": {
+        "mega-torrent": "1.2.10"
+    }
+}
