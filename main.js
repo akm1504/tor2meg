@@ -15,5 +15,5 @@ setInterval(function(){
   if(mega){
     console.log("Upload progress: ", Math.round(mega.getProgress() * 100), "%");
   }
-}, 50000);
+}, 5000);
 
