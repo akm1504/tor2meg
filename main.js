@@ -1,7 +1,7 @@
 var Mega_Torrent = require('mega-torrent/src/index.js');
 var mega_t = new Mega_Torrent({
-  email: 'ananducoc2016@gmail.com',
-  password: 'anandu1504#'
+  email: process.env.Emailmeg,
+  password: process.env.megPass
 });
 
 var url = 'magnet:?xt=urn:btih:2CB17311A72FD1930CC4DBC3A3F4D684D8ADDE27';
